@@ -28,4 +28,4 @@ This repository has branches for each of the videos in the course. You can use t
 For more help setting up a comprehensive Gulp.js workflow, check out [Web Project Workflows with Gulp.js, Git, and Browserify](http://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html).
 
 ## More Stuff
-Check out some of his other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos). You can also check out his [youtube channel](http://youtube.com/planetoftheweb), [follow me on twitter](http://twitter.com/planetoftheweb), or read [his blog](http://raybo.org).
+Check out some of his other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos). You can also check out his [youtube channel](http://youtube.com/planetoftheweb), [follow him on twitter](http://twitter.com/planetoftheweb), or read [his blog](http://raybo.org).
