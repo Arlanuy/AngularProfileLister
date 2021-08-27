@@ -1,9 +1,16 @@
-var myApp = angular.module('lister_app', []);
-//fetch all of the details in data.json
-myApp.controller('lister_controller', function myController($scope, $http) {
-	$http.get("js/data.json").then(function(response) {
-    $scope.artists = response.data;
-    $scope.artist_order = 'name';
-  });
-  
-});
+var lister_app = angular.module('lister_app', [
+  'ngRoute',
+  'myControllers'
+]);
+
+lister_app.config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+    .when('/', {
+        templateUrl: 'js/partials/search.html',
+        controller: 'SearchController'
+    })
+    .when('/details/:itemId', {
+        templateUrl: 'js/partials/details.html',
+        controller: 'DetailsController'
+    });
+}]);
